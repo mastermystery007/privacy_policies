@@ -16,10 +16,8 @@
       --muted: #aab0b7;
       --accent: #ffb300;
     }
-
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-
     body {
       margin: 0;
       background: var(--background);
@@ -27,74 +25,20 @@
       font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       line-height: 1.7;
     }
-
-    main {
-      width: min(900px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 48px 0 72px;
-    }
-
-    .back-link {
-      display: inline-block;
-      margin-bottom: 28px;
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    .back-link:hover,
-    .back-link:focus-visible { text-decoration: underline; }
-
-    header {
-      padding: 28px;
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      background: var(--surface);
-    }
-
-    h1 {
-      margin: 0 0 8px;
-      color: var(--accent);
-      font-size: clamp(2rem, 6vw, 3.3rem);
-      line-height: 1.1;
-    }
-
-    h2 {
-      margin-top: 38px;
-      color: var(--accent);
-      line-height: 1.3;
-    }
-
-    p, li { color: var(--text); }
-
-    .updated,
-    .summary { color: var(--muted); }
-
+    main { width: min(900px, calc(100% - 32px)); margin: 0 auto; padding: 48px 0 72px; }
+    .back-link { display: inline-block; margin-bottom: 28px; color: var(--accent); text-decoration: none; }
+    .back-link:hover, .back-link:focus-visible { text-decoration: underline; }
+    header, .contact-card { padding: 24px; border: 1px solid var(--border); border-radius: 16px; background: var(--surface); }
+    h1 { margin: 0 0 8px; color: var(--accent); font-size: clamp(2rem, 6vw, 3.3rem); line-height: 1.1; }
+    h2 { margin-top: 38px; color: var(--accent); line-height: 1.3; }
+    .updated, .summary, footer { color: var(--muted); }
     .summary { margin-bottom: 0; }
-
-    section {
-      padding-bottom: 4px;
-      border-bottom: 1px solid var(--border);
-    }
-
+    section { padding-bottom: 4px; border-bottom: 1px solid var(--border); }
     section:last-of-type { border-bottom: 0; }
-
     a { color: var(--accent); }
-
-    .contact-card {
-      margin-top: 22px;
-      padding: 20px;
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      background: var(--surface);
-    }
-
+    .contact-card { margin-top: 22px; border-radius: 12px; }
     .contact-card p { margin: 4px 0; }
-
-    footer {
-      margin-top: 42px;
-      color: var(--muted);
-      font-size: 0.92rem;
-    }
+    footer { margin-top: 42px; font-size: 0.92rem; }
   </style>
 </head>
 <body>
@@ -104,134 +48,62 @@
     <header>
       <h1>Privacy Policy for Deduce It 2</h1>
       <p class="updated"><strong>Last updated:</strong> 20 July 2026</p>
-      <p class="summary">
-        This Privacy Policy explains how information is handled when you use Deduce It 2, an Android logic-puzzle game published by Mystery Box.
-      </p>
+      <p class="summary">This policy explains how information is handled when you use Deduce It 2, an Android logic-puzzle game published by Mystery Box.</p>
     </header>
 
     <section>
       <h2>1. Scope</h2>
-      <p>
-        This policy applies to the Deduce It 2 Android application, package name
-        <strong>com.mysterybox.deduceit2</strong>. By using the application, you acknowledge the practices described in this policy.
-      </p>
+      <p>This policy applies to Deduce It 2, package <strong>com.mysterybox.deduceit2</strong>.</p>
     </section>
 
     <section>
-      <h2>2. Information handled directly by Deduce It 2</h2>
-      <p>
-        Deduce It 2 does not require an account, sign-in, profile, name, phone number, address, or payment information. The developer does not operate a separate backend server for collecting player profiles or game progress.
-      </p>
-      <p>
-        Information such as solved cases, permanently unlocked cases, clue selections, logic-grid markings, tutorial status, and related progress may be stored locally on your device. This local information is used only to provide game functionality and restore your progress.
-      </p>
+      <h2>2. Information handled by the app</h2>
+      <p>Deduce It 2 does not require an account, sign-in, profile, name, phone number, address, or payment information. The developer does not operate a separate player-profile backend.</p>
+      <p>Solved cases, permanently unlocked cases, clue selections, logic-grid markings, tutorial status, and related progress may be stored locally on your device to provide game functionality and restore progress.</p>
     </section>
 
     <section>
-      <h2>3. Advertising and third-party data processing</h2>
-      <p>
-        Deduce It 2 uses Google AdMob to offer optional rewarded advertisements. Cases 1 and 2 are available without an advertisement. A player may choose to watch one rewarded advertisement to permanently unlock each later case, or to reveal a complete solution early. Checking a deduction does not require an advertisement.
-      </p>
-      <p>The Google Mobile Ads SDK may automatically collect, process, and share information such as:</p>
-      <ul>
-        <li>IP address, which may be used to estimate general location;</li>
-        <li>device identifiers, advertising identifiers, and app-set identifiers;</li>
-        <li>application and advertisement interactions, including app launches, taps, ad views, and video views;</li>
-        <li>diagnostic and performance information, including crash, launch-time, and device-performance information;</li>
-        <li>information used for advertising, analytics, security, and fraud prevention.</li>
-      </ul>
-      <p>
-        Google and participating advertising partners process this information under their own terms and privacy practices. Deduce It 2 does not sell personal information.
-      </p>
-      <p>
-        More information is available in the
-        <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>
-        and Google's explanation of
-        <a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer">advertising technologies</a>.
-      </p>
+      <h2>3. Advertising and third-party processing</h2>
+      <p>Deduce It 2 uses Google AdMob for optional rewarded advertisements. Cases 1 and 2 are free. A player may choose to watch an advertisement to permanently unlock a later case, reveal the false witness in a liar case, or reveal a complete solution early. Checking a deduction does not require an advertisement.</p>
+      <p>The Google Mobile Ads SDK may process information such as IP address, device or advertising identifiers, app and advertisement interactions, diagnostic data, performance information, and information used for advertising, analytics, security, and fraud prevention.</p>
+      <p>Google and participating advertising partners process this information under their own terms and privacy practices. Deduce It 2 does not sell personal information. See the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a> and Google's information about <a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer">advertising technologies</a>.</p>
     </section>
 
     <section>
       <h2>4. Consent and privacy choices</h2>
-      <p>
-        Deduce It 2 uses Google's User Messaging Platform (UMP) to request and manage advertising consent where required, including for eligible users in the European Economic Area, the United Kingdom, and Switzerland.
-      </p>
-      <p>
-        Depending on your location and applicable law, you may be shown options to consent, decline consent, or manage advertising choices. When Google reports that privacy options are required, Deduce It 2 provides an in-app privacy-choices control so that you can review or change those choices later.
-      </p>
-      <p>
-        The app also provides a permanent in-app link to this Privacy Policy regardless of region or consent status.
-      </p>
-      <p>
-        The type of advertisement Google can provide may depend on your consent choices, device settings, region, and ad availability. This can include personalized, non-personalized, limited, or technical ad delivery as permitted by Google and applicable law.
-      </p>
+      <p>Deduce It 2 uses Google's User Messaging Platform to request and manage advertising consent where required, including for eligible users in the European Economic Area, the United Kingdom, and Switzerland.</p>
+      <p>Depending on your location and applicable law, you may be offered choices to consent, decline, or manage advertising preferences. The app provides a privacy-choices control whenever Google reports that it is required, and it always provides a separate link to this policy.</p>
     </section>
 
     <section>
-      <h2>5. How information is used</h2>
-      <p>Information handled through the app and its advertising provider may be used to:</p>
-      <ul>
-        <li>operate and maintain the game;</li>
-        <li>save and restore local puzzle progress and case unlocks;</li>
-        <li>deliver optional rewarded advertisements;</li>
-        <li>measure advertisement performance and application interactions;</li>
-        <li>diagnose technical problems and improve reliability;</li>
-        <li>prevent invalid traffic, abuse, and fraud;</li>
-        <li>comply with legal and regulatory obligations.</li>
-      </ul>
+      <h2>5. Use and sharing</h2>
+      <p>Information may be used to operate the game, save local progress, deliver optional rewarded advertisements, measure advertisement performance, diagnose technical problems, improve reliability, prevent invalid traffic or fraud, and comply with legal obligations.</p>
+      <p>Locally stored puzzle progress and case unlocks are not intentionally sent to the developer's own server. Information processed by the Google Mobile Ads SDK may be shared with Google and eligible advertising partners, subject to your consent choices and applicable law.</p>
     </section>
 
     <section>
-      <h2>6. Sharing of information</h2>
-      <p>
-        Locally stored puzzle progress and case unlocks are not intentionally transmitted to the developer's own server. Information processed by the Google Mobile Ads SDK may be shared with Google and eligible advertising partners for advertising, measurement, analytics, security, and fraud-prevention purposes, subject to your consent choices and applicable law.
-      </p>
-      <p>
-        Information may also be disclosed where reasonably necessary to comply with law, regulation, legal process, or a valid governmental request, or to protect users, the developer, or the public from harm.
-      </p>
+      <h2>6. Retention and deletion</h2>
+      <p>Local progress and unlocks remain on your device until you clear the application's storage or uninstall Deduce It 2. There is no server-side game account to delete. Information processed by Google is retained and deleted according to Google's policies and applicable settings.</p>
     </section>
 
     <section>
-      <h2>7. Data retention and deletion</h2>
-      <p>
-        Local game progress and case unlocks remain on your device until you clear the application's storage or uninstall Deduce It 2. Because Deduce It 2 has no user-account system or independent player database, there is no server-side game account to delete.
-      </p>
-      <p>
-        Information processed by Google is retained and deleted according to Google's policies and the settings applicable to its advertising services. You can reset or delete your Android advertising identifier through your device's privacy settings where that option is available.
-      </p>
+      <h2>7. Security and international processing</h2>
+      <p>Deduce It 2 limits its own storage to information needed for game functionality. Data transmitted by the Google Mobile Ads SDK uses standard transport encryption, although no electronic storage or transmission method can be guaranteed completely secure.</p>
+      <p>Google and its partners may process information outside your country under their respective policies, safeguards, and applicable data-protection law.</p>
     </section>
 
     <section>
-      <h2>8. Security</h2>
-      <p>
-        Deduce It 2 limits its own storage to information required for game functionality. Data transmitted by the Google Mobile Ads SDK is protected in transit using standard transport encryption. However, no electronic storage or transmission method can be guaranteed to be completely secure.
-      </p>
+      <h2>8. Children's privacy</h2>
+      <p>Deduce It 2 is a general-audience logic game and is not specifically directed to children under 13 or the applicable minimum digital-consent age. The developer does not knowingly request personal information directly from children.</p>
     </section>
 
     <section>
-      <h2>9. Children's privacy</h2>
-      <p>
-        Deduce It 2 is a general-audience logic game and is not specifically directed to children under 13 or the applicable minimum digital-consent age in a user's country. The developer does not knowingly request personal information directly from children. Parents or guardians who believe a child has provided information in connection with the app may contact the developer using the address below.
-      </p>
+      <h2>9. Changes to this policy</h2>
+      <p>This policy may be updated when the app's features, advertising services, legal requirements, or data practices change. The revised policy and update date will be published here.</p>
     </section>
 
     <section>
-      <h2>10. International processing</h2>
-      <p>
-        Google and its advertising partners may process information in countries other than the country in which you live. Their processing is governed by their respective privacy policies, contractual safeguards, and applicable data-protection law.
-      </p>
-    </section>
-
-    <section>
-      <h2>11. Changes to this policy</h2>
-      <p>
-        This Privacy Policy may be updated when the application's features, advertising services, legal requirements, or data practices change. The revised policy will be published on this page and the “Last updated” date will be changed.
-      </p>
-    </section>
-
-    <section>
-      <h2>12. Contact</h2>
-      <p>For questions, privacy enquiries, or requests concerning Deduce It 2, contact:</p>
+      <h2>10. Contact</h2>
       <div class="contact-card">
         <p><strong>Developer:</strong> Mystery Box</p>
         <p><strong>Application:</strong> Deduce It 2</p>
@@ -240,9 +112,7 @@
       </div>
     </section>
 
-    <footer>
-      This page contains no advertising tags, analytics scripts, cookies, or tracking code.
-    </footer>
+    <footer>This page contains no advertising tags, analytics scripts, cookies, or tracking code.</footer>
   </main>
 </body>
 </html>
