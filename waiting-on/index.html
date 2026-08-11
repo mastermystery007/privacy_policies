@@ -9,12 +9,12 @@
   <style>
     :root {
       color-scheme: dark;
-      --background: #0f1113;
-      --surface: #191c20;
-      --border: #34383e;
-      --text: #f2f2f2;
-      --muted: #aab0b7;
-      --accent: #d0bcff;
+      --background: #151117;
+      --surface: #201a24;
+      --border: #443849;
+      --text: #f4eef5;
+      --muted: #bdb2c1;
+      --accent: #e1b94f;
     }
     * { box-sizing: border-box; }
     html { scroll-behavior: smooth; }
@@ -48,7 +48,7 @@
 
     <header>
       <h1>Privacy Policy for Waiting On</h1>
-      <p class="updated"><strong>Last updated:</strong> 8 August 2026</p>
+      <p class="updated"><strong>Last updated:</strong> 11 August 2026</p>
       <p class="summary">
         This Privacy Policy explains how information is handled when you use Waiting On, an Android utility published by Mystery Box for tracking pending requests, applications, replies, orders, payments, appointments and other items that may need follow-up.
       </p>
@@ -60,62 +60,83 @@
     </section>
 
     <section>
-      <h2>2. Information handled by Waiting On</h2>
-      <p>Waiting On does not require an account, sign-in, profile, name, phone number, address or payment information. The developer does not operate a backend server for Waiting On.</p>
-      <p>Information you choose to enter may include item titles, categories, start dates, expected dates, follow-up dates, contact or organization details, reference or tracking numbers, notes, completion status and the date you last recorded contact. This information is stored only in the app's private local storage on your device and is used to provide tracking, status, widget and reminder features.</p>
+      <h2>2. Information you enter into Waiting On</h2>
+      <p>Waiting On does not require a Waiting On account, sign-in, profile, name, phone number, address or payment information. Mystery Box does not operate a backend server for Waiting On.</p>
+      <p>Information you choose to enter may include item titles, categories, dates, contact or organization details, reference or tracking numbers, notes, completion status and contact history. This information is stored in the app's private local storage on your device and is used for tracking, reminders and widget features.</p>
+      <p>Waiting On does not intentionally send task titles, notes, contacts, reference numbers or other task content you enter to Mystery Box, Google Mobile Ads or advertising partners.</p>
     </section>
 
     <section>
-      <h2>3. Data collection and third parties</h2>
-      <p>Waiting On does not include advertising, analytics, tracking SDKs, social SDKs or cloud-sync services. The app does not request the Android Internet permission and does not intentionally transmit your waiting-item data to Mystery Box or to third parties.</p>
+      <h2>3. Rewarded advertising</h2>
+      <p>Waiting On uses the Google Mobile Ads SDK (AdMob) to provide optional rewarded advertisements. A rewarded ad is requested only when you explicitly choose to unlock a task for placement in the Waiting On home-screen widget. Creating, editing and managing tasks and reminders do not require an ad.</p>
+      <p>After you earn the reward for a task, Waiting On stores a local flag indicating that the task is permanently unlocked for widget use. Removing and later re-adding that same task does not require another rewarded ad.</p>
+      <p>When an ad is requested or displayed, Google and advertising partners may process information such as IP address, device or app information, advertising identifiers where available and permitted, network information, consent signals, ad impressions, clicks and other ad-interaction data. The exact information processed depends on device settings, consent choices, location, applicable law and Google's advertising configuration.</p>
+      <p>See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
     </section>
 
     <section>
-      <h2>4. Notifications and reminders</h2>
-      <p>If you create a follow-up date and choose to enable notifications, Waiting On may request Android's notification permission. The permission is used only to display follow-up reminders for items you create. Reminder scheduling is performed locally on your device.</p>
+      <h2>4. Consent and privacy choices</h2>
+      <p>Waiting On integrates Google's User Messaging Platform (UMP) SDK to obtain or refresh advertising consent information where required. Consent information is refreshed when the app launches. If applicable, Google may present a privacy or consent message before ads are requested.</p>
+      <p>Where Google's SDK indicates that a privacy-options entry point is required, Waiting On provides an <strong>Ad privacy choices</strong> option in Settings so you can review or change applicable advertising privacy choices.</p>
+      <p>Waiting On does not use a Mystery Box analytics service or maintain a server-side advertising profile of its users.</p>
+    </section>
+
+    <section>
+      <h2>5. Internet access</h2>
+      <p>Waiting On requests Internet and network-state access because a connection is required to load Google consent messages and optional rewarded advertisements.</p>
+      <p>The task database, status calculations, reminders and widget task content remain local features. Rewarded widget unlocks require an ad to be available.</p>
+    </section>
+
+    <section>
+      <h2>6. Notifications and reminders</h2>
+      <p>If you create a follow-up date and enable notifications, Waiting On may request Android's notification permission. Reminder scheduling is performed locally on your device.</p>
       <p>You can disable reminder notifications in the app's Settings screen or through Android's application notification settings.</p>
     </section>
 
     <section>
-      <h2>5. Home-screen widget</h2>
-      <p>The Waiting On home-screen widget displays information from your locally stored pending items. Widget content is generated on the device. Adding a widget does not upload your item information to the developer.</p>
-      <p>Because widgets are visible on your launcher, information shown in a widget may be visible to anyone who can view your unlocked home screen. You control whether to add, resize or remove the widget.</p>
+      <h2>7. Home-screen widget</h2>
+      <p>Waiting On provides one shared, scrollable home-screen widget containing the tasks you explicitly select for it. A task must first be unlocked for widget use through the rewarded-ad flow described above. The unlock state and current widget-selection state are stored locally on your device.</p>
+      <p>Widget content is generated from locally stored task information. Task text shown in the widget is not uploaded to Mystery Box for rendering the widget.</p>
+      <p>Because widgets are visible on your launcher, information shown in a widget may be visible to anyone who can view your unlocked home screen. You control which unlocked tasks are shown and whether to add, resize or remove the widget.</p>
     </section>
 
     <section>
-      <h2>6. Data sharing</h2>
-      <p>Waiting On does not sell your information and does not intentionally share your waiting-item data with advertising networks, analytics providers or other third parties.</p>
-      <p>Information may only be disclosed if the developer is legally required to comply with applicable law, regulation, legal process or a valid governmental request. Because Waiting On does not operate a server containing your item data, the developer normally does not possess that local data.</p>
+      <h2>8. Data sharing</h2>
+      <p>Waiting On does not sell the task information you enter into the app. Mystery Box does not intentionally share your task titles, notes, contact details, reference numbers or reminder information with advertising networks.</p>
+      <p>Google Mobile Ads, UMP and advertising partners may receive or process advertising- and consent-related information as described above. Their processing is governed by their own terms, policies and your applicable consent choices.</p>
+      <p>Information may also be disclosed if Mystery Box is legally required to comply with applicable law, regulation, legal process or a valid governmental request. Because Mystery Box does not operate a server containing your task database, it normally does not possess that local task data.</p>
     </section>
 
     <section>
-      <h2>7. Data retention, backup and deletion</h2>
-      <p>Waiting-item data remains in the app's private storage on your device until you delete an item, clear the application's storage or uninstall Waiting On. Completed items remain locally stored until you delete them or remove the application's data.</p>
-      <p>Waiting On disables Android application backup for its local app data. There is no Waiting On user account or server-side item database to delete.</p>
+      <h2>9. Data retention, backup and deletion</h2>
+      <p>Waiting On task data, widget unlock state and widget selection state remain in app-private storage on your device until you delete an item, clear the application's storage or uninstall Waiting On.</p>
+      <p>Waiting On disables Android application backup for its local app data. There is no Waiting On user account or Mystery Box server-side task database to delete.</p>
+      <p>Advertising and consent data processed by Google or advertising partners may be retained according to their own policies and legal obligations.</p>
     </section>
 
     <section>
-      <h2>8. Security</h2>
-      <p>Waiting On minimizes data exposure by storing item information locally in the application's private storage and by not providing the app with Internet access. Access to application-private storage is controlled by Android. However, no device or storage method can be guaranteed to be completely secure, so avoid entering sensitive information that is not necessary for your tracking purpose.</p>
+      <h2>10. Security</h2>
+      <p>Waiting On minimizes exposure of task content by storing it in Android app-private storage and not intentionally transmitting that content to the advertising SDK. No device, network connection or storage method can be guaranteed to be completely secure, so avoid entering sensitive information that is not necessary for your tracking purpose.</p>
     </section>
 
     <section>
-      <h2>9. Children's privacy</h2>
-      <p>Waiting On is a general-purpose productivity utility and is not specifically directed to children under 13 or the applicable minimum digital-consent age in a user's country. The developer does not knowingly request personal information directly from children.</p>
+      <h2>11. Children's privacy</h2>
+      <p>Waiting On is a general-purpose productivity utility and is not specifically directed to children under 13 or the applicable minimum digital-consent age in a user's country. Mystery Box does not knowingly request personal information directly from children through a Waiting On account or backend because the app has neither.</p>
     </section>
 
     <section>
-      <h2>10. Your choices</h2>
-      <p>You can choose what information to enter into each item, whether to set a follow-up reminder, whether to allow notifications, whether to place the widget on your home screen and when to delete an item. You can remove all locally stored Waiting On data by clearing the app's storage or uninstalling the application.</p>
+      <h2>12. Your choices</h2>
+      <p>You can choose what information to enter, whether to set reminders, whether to allow notifications, whether to unlock a task for the widget, which unlocked tasks appear in the widget and when to delete an item.</p>
+      <p>Where available, use <strong>Settings &rarr; Ad privacy choices</strong> to review applicable Google advertising privacy options. You can remove all locally stored Waiting On data by clearing app storage or uninstalling the application.</p>
     </section>
 
     <section>
-      <h2>11. Changes to this policy</h2>
-      <p>This Privacy Policy may be updated when the application's features, legal requirements or data practices change. The revised policy will be published on this page and the “Last updated” date will be changed.</p>
+      <h2>13. Changes to this policy</h2>
+      <p>This Privacy Policy may be updated when the application's features, legal requirements, advertising configuration or data practices change. The revised policy will be published on this page and the “Last updated” date will be changed.</p>
     </section>
 
     <section>
-      <h2>12. Contact</h2>
+      <h2>14. Contact</h2>
       <p>For questions, privacy enquiries or requests concerning Waiting On, contact:</p>
       <div class="contact-card">
         <p><strong>Developer:</strong> Mystery Box</p>
@@ -125,7 +146,7 @@
       </div>
     </section>
 
-    <footer>This page contains no advertising tags, analytics scripts, cookies or tracking code.</footer>
+    <footer>This policy page itself contains no advertising tags, analytics scripts, cookies or tracking code.</footer>
   </main>
 </body>
 </html>
