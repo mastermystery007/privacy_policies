@@ -62,14 +62,14 @@
     <section>
       <h2>2. Information you enter into Waiting On</h2>
       <p>Waiting On does not require a Waiting On account, sign-in, profile, name, phone number, address or payment information. Mystery Box does not operate a backend server for Waiting On.</p>
-      <p>Information you choose to enter may include item titles, categories, dates, contact or organization details, reference or tracking numbers, notes, completion status and contact history. This information is stored in the app's private local storage on your device and is used for tracking, reminders and widget features.</p>
+      <p>Information you choose to enter may include item titles, categories, dates, contact or organization details, reference or tracking numbers, notes and completion status. This information is stored in the app's private local storage on your device and is used for tracking, reminders and widget features.</p>
       <p>Waiting On does not intentionally send task titles, notes, contacts, reference numbers or other task content you enter to Mystery Box, Google Mobile Ads or advertising partners.</p>
     </section>
 
     <section>
-      <h2>3. Rewarded advertising</h2>
-      <p>Waiting On uses the Google Mobile Ads SDK (AdMob) to provide optional rewarded advertisements. A rewarded ad is requested only when you explicitly choose to unlock a task for placement in the Waiting On home-screen widget. Creating, editing and managing tasks and reminders do not require an ad.</p>
-      <p>After you earn the reward for a task, Waiting On stores a local flag indicating that the task is permanently unlocked for widget use. Removing and later re-adding that same task does not require another rewarded ad.</p>
+      <h2>3. Advertising</h2>
+      <p>Waiting On uses the Google Mobile Ads SDK (AdMob) for two placements: an anchored adaptive banner at the bottom of the main task dashboard, and an optional rewarded advertisement when you first choose to unlock a task for placement in the Waiting On home-screen widget.</p>
+      <p>Creating, editing and managing tasks and reminders do not require watching a rewarded ad. After you earn the reward for a task, Waiting On stores a local flag indicating that the task is permanently unlocked for widget use. Removing and later re-adding that same task does not require another rewarded ad.</p>
       <p>When an ad is requested or displayed, Google and advertising partners may process information such as IP address, device or app information, advertising identifiers where available and permitted, network information, consent signals, ad impressions, clicks and other ad-interaction data. The exact information processed depends on device settings, consent choices, location, applicable law and Google's advertising configuration.</p>
       <p>See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
     </section>
@@ -83,8 +83,8 @@
 
     <section>
       <h2>5. Internet access</h2>
-      <p>Waiting On requests Internet and network-state access because a connection is required to load Google consent messages and optional rewarded advertisements.</p>
-      <p>The task database, status calculations, reminders and widget task content remain local features. Rewarded widget unlocks require an ad to be available.</p>
+      <p>Waiting On requests Internet and network-state access because a connection is required to load Google consent messages, the dashboard banner and optional rewarded advertisements.</p>
+      <p>The task database, status calculations, reminders and widget task content remain local features. Advertisements require network access, and a first-time widget unlock requires a rewarded ad to be available.</p>
     </section>
 
     <section>
@@ -96,6 +96,7 @@
     <section>
       <h2>7. Home-screen widget</h2>
       <p>Waiting On provides one shared, scrollable home-screen widget containing the tasks you explicitly select for it. A task must first be unlocked for widget use through the rewarded-ad flow described above. The unlock state and current widget-selection state are stored locally on your device.</p>
+      <p>If the shared Waiting On widget already exists, selecting a task adds it to that widget. If the widget is not yet present, Waiting On can ask the Android launcher to pin the shared widget after the task is unlocked. The launcher may require user confirmation.</p>
       <p>Widget content is generated from locally stored task information. Task text shown in the widget is not uploaded to Mystery Box for rendering the widget.</p>
       <p>Because widgets are visible on your launcher, information shown in a widget may be visible to anyone who can view your unlocked home screen. You control which unlocked tasks are shown and whether to add, resize or remove the widget.</p>
     </section>
