@@ -4,7 +4,7 @@ Static privacy-policy pages for applications published by Mystery Box.
 
 ## Current policies
 
-- Resume Refine: `resume-refine/index.html`
+- ResumeMaxx: `resumemaxx/index.html`
 
 - Deduce It: `deduce-it/index.html`
 
