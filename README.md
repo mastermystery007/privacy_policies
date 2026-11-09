@@ -4,6 +4,8 @@ Static privacy-policy pages for applications published by Mystery Box.
 
 ## Current policies
 
+- ResumeMaxx: `resumemaxx/index.html`
+
 - Deduce It: `deduce-it/index.html`
 
 ## GitHub Pages setup
