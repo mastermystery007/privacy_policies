@@ -4,6 +4,8 @@ Static privacy-policy pages for applications published by Mystery Box.
 
 ## Current policies
 
+- Resume Refine: `resume-refine/index.html`
+
 - Deduce It: `deduce-it/index.html`
 
 ## GitHub Pages setup
